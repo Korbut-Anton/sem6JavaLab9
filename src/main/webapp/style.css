@@ -1,0 +1,93 @@
+body {
+    background: #d6eaf8;
+}
+
+.gradient-button {
+    width: 225px;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+
+.gradient-button:hover {
+    background-position: right center;
+}
+
+.b-table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif, sans-serif;
+    font-size: 14px;
+    border-radius: 10px;
+    border-spacing: 0;
+    text-align: center;
+}
+
+.b-th {
+    background: #4830F0;
+    color: white;
+    text-shadow: 0 1px 1px #2D2020;
+    padding: 10px 20px;
+}
+.b-th, .b-td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+
+.b-th:first-child {
+    border-top-left-radius: 10px;
+}
+.b-th:last-child {
+    border-top-right-radius: 10px;
+    border-right: none;
+}
+.b-td {
+    padding: 10px 20px;
+    background: #F8E391;
+}
+.b-tr:last-child .b-td:first-child {
+    border-radius: 0 0 0 10px;
+}
+.b-tr:last-child .b-td:last-child {
+    border-radius: 0 0 10px 0;
+}
+.b-tr .b-td:last-child {
+    border-right: none;
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+H1, H2, H3, P {
+    text-shadow:
+            -1px -1px #FFF,
+            -2px -2px #FFF,
+            -1px 1px #FFF,
+            -2px 2px #FFF,
+            1px 1px #FFF,
+            2px 2px #FFF,
+            1px -1px #FFF,
+            2px -2px #FFF,
+            -3px -3px 2px #BBB,
+            -3px 3px 2px #BBB,
+            3px 3px 2px #BBB,
+            3px -3px 2px #BBB;
+    color: green;
+    transition: all 1s;
+}
+
+H1:hover {
+    color: yellowgreen;
+}
